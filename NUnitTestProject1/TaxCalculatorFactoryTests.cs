@@ -15,10 +15,10 @@ namespace NUnitTestProject1
         [Test]
         public void Given_Order_For_Texas_TaxCalculatorFactory_Gives_TexasTaxCalculator()
         {
-            var incoming = File.ReadAllText("testData.SingleOrder.json");
-            var actual = Order.FromJson(incoming);
 
-            var taxCalc = TaxCalculatorFactory.Create(actual);
+            var customer = new Customer() { Country = "US", State = "TX" };
+
+            var taxCalc = TaxCalculatorFactory.Create(customer);
 
             Assert.That(taxCalc, Is.InstanceOf<TexasTaxCalculator>());
         }
