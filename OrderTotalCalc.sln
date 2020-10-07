@@ -3,14 +3,18 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.30114.105
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NUnitTestProject1", "NUnitTestProject1\NUnitTestProject1.csproj", "{33F4E536-3F4C-4085-AB5F-64B04BF5A91B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NUnitTestProject1", "NUnitTestProject1\NUnitTestProject1.csproj", "{33F4E536-3F4C-4085-AB5F-64B04BF5A91B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BusinessObjects", "BusinessObjects\BusinessObjects.csproj", "{654F0C8E-44F9-4D5A-A7B5-44253560D355}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BusinessObjects", "BusinessObjects\BusinessObjects.csproj", "{654F0C8E-44F9-4D5A-A7B5-44253560D355}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{2CA62B9B-EC3B-4DED-B55C-014EAD8876A8}"
 	ProjectSection(SolutionItems) = preProject
 		README.md = README.md
 	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BusinessLogic", "BusinessLogic\BusinessLogic.csproj", "{236AAC74-3B21-4B70-AD51-89ED908BEA2F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NUnitBusinessLogic", "NUnitBusinessLogic\NUnitBusinessLogic.csproj", "{CBDAAA93-E89F-4E2F-A021-8C2D3E6E7CD3}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -26,6 +30,14 @@ Global
 		{654F0C8E-44F9-4D5A-A7B5-44253560D355}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{654F0C8E-44F9-4D5A-A7B5-44253560D355}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{654F0C8E-44F9-4D5A-A7B5-44253560D355}.Release|Any CPU.Build.0 = Release|Any CPU
+		{236AAC74-3B21-4B70-AD51-89ED908BEA2F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{236AAC74-3B21-4B70-AD51-89ED908BEA2F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{236AAC74-3B21-4B70-AD51-89ED908BEA2F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{236AAC74-3B21-4B70-AD51-89ED908BEA2F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CBDAAA93-E89F-4E2F-A021-8C2D3E6E7CD3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CBDAAA93-E89F-4E2F-A021-8C2D3E6E7CD3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CBDAAA93-E89F-4E2F-A021-8C2D3E6E7CD3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CBDAAA93-E89F-4E2F-A021-8C2D3E6E7CD3}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

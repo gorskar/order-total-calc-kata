@@ -1,0 +1,18 @@
+﻿{
+  "customer": {
+    "id": 1,
+    "country": "US",
+    "state": "TX",
+    "carrier": "Fedex"
+  },
+  "orderLines": [
+    {
+      "product": "Gas",
+      "cost": 100
+    },
+    {
+      "product": "TV",
+      "cost": 200
+    }
+  ]
+}

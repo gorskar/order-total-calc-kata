@@ -1,0 +1,94 @@
+﻿{
+  "orders": [
+    {
+      "customer": {
+        "id": 1,
+        "country": "US",
+        "state": "TX",
+        "carrier": "Fedex"
+      },
+      "orderLines": [
+        {
+          "product": "Gas",
+          "cost": 100
+        },
+        {
+          "product": "TV",
+          "cost": 200
+        }
+      ]
+    },
+    {
+      "customer": {
+        "id": 2,
+        "country": "US",
+        "state": "NY",
+        "carrier": "USPS"
+      },
+      "orderLines": [
+        {
+          "product": "Gas",
+          "cost": 100
+        },
+        {
+          "product": "TV",
+          "cost": 200
+        }
+      ]
+    },
+    {
+      "customer": {
+        "id": 3,
+        "country": "UK",
+        "state": "Lancs",
+        "carrier": "Parcelforce"
+      },
+      "orderLines": [
+        {
+          "product": "Gas",
+          "cost": 100
+        },
+        {
+          "product": "TV",
+          "cost": 200
+        }
+      ]
+    },
+    {
+      "customer": {
+        "id": 4,
+        "country": "FR",
+        "state": "Paris",
+        "carrier": "DPD"
+      },
+      "orderLines": [
+        {
+          "product": "Gas",
+          "cost": 100
+        },
+        {
+          "product": "TV",
+          "cost": 200
+        }
+      ]
+    },
+    {
+      "customer": {
+        "id": 5,
+        "country": "FR",
+        "state": "Paris",
+        "carrier": "UPS"
+      },
+      "orderLines": [
+        {
+          "product": "Gas",
+          "cost": 100
+        },
+        {
+          "product": "TV",
+          "cost": 200
+        }
+      ]
+    }
+  ]
+}
